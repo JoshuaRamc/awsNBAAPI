@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nbaapi-dev-140614-authRole",
+      "UnauthRoleArn": "arn:aws:iam::476180463338:role/amplify-nbaapi-dev-140614-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::476180463338:role/amplify-nbaapi-dev-140614-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nbaapi-dev-140614-deployment",
+      "UnauthRoleName": "amplify-nbaapi-dev-140614-unauthRole",
+      "StackName": "amplify-nbaapi-dev-140614",
+      "StackId": "arn:aws:cloudformation:us-east-1:476180463338:stack/amplify-nbaapi-dev-140614/8a637c20-e6b8-11ed-9b97-12dc9b955b99",
+      "AmplifyAppId": "d3ign46uefal03",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-nbaapi-dev-140614-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "nbaapi4496abbe": {}
+      },
+      "function": {
+        "playerfunction": {
+          "deploymentBucketName": "amplify-nbaapi-dev-140614-deployment",
+          "s3Key": "amplify-builds/playerfunction-466f4f4c74676671642b-build.zip"
+        },
+        "playersdbTrigger22bf60c8": {
+          "deploymentBucketName": "amplify-nbaapi-dev-140614-deployment",
+          "s3Key": "amplify-builds/playersdbTrigger22bf60c8-4f32555a372f6d574532-build.zip"
+        }
+      },
+      "storage": {
+        "playersdb": {}
+      },
+      "api": {
+        "nbaapi": {}
+      }
+    }
+  }
+}

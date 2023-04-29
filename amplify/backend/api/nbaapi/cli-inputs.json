@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/nba": {
+      "name": "/nba",
+      "lambdaFunction": "playerfunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

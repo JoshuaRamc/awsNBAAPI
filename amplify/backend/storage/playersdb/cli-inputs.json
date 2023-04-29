@@ -1,0 +1,16 @@
+{
+  "resourceName": "playersdb",
+  "tableName": "playersdb",
+  "partitionKey": {
+    "fieldName": "name",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "team",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "playersdbTrigger22bf60c8"
+  ]
+}
